@@ -3,8 +3,9 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      ome
+      <div className="mainpage">
+        <div className="name">Jignyasa Mishra</div>
+      </div>
     </div>
   )
 }
-

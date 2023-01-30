@@ -1,11 +1,24 @@
-#loadbody{
-background-color: rgba(0, 0, 5,1);
-height: 80rem;
-color: aliceblue;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 2.5rem;
-font-family: classic;
-letter-spacing: 0.2rem;
+#loadbody {
+    background-color: rgba(0, 0, 5, 1);
+    height: 80rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: classic;
+    letter-spacing: 0.2rem;
+}
+
+.mainpage {
+    background-color: rgb(26, 26, 26);
+    height: 75rem;
+}
+
+.name {
+    color: aliceblue;
+    font-size: 3.5rem;
+    font-family: classic;
+    letter-spacing: 0.2rem;
+
 }

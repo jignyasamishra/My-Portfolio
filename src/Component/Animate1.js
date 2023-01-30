@@ -8,7 +8,7 @@ const animations={
 export default function Animate1({children}) {
   return (
     <div>
-        <motion.div variants={animations} initial="initial" animate="animate" exit="exit" transition={{duration:6}}>
+        <motion.div variants={animations} initial="initial" animate="animate" exit="exit" transition={{duration:3}}>
       {children}
     </motion.div>
     </div>
