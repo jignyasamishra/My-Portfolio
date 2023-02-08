@@ -1,24 +1,227 @@
-#loadbody {
-    background-color: rgba(0, 0, 5, 1);
-    height: 80rem;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-    font-family: classic;
-    letter-spacing: 0.2rem;
-}
+ ::-webkit-scrollbar {
+     display: none;
+ }
 
-.mainpage {
-    background-color: rgb(26, 26, 26);
-    height: 75rem;
-}
 
-.name {
-    color: aliceblue;
-    font-size: 3.5rem;
-    font-family: classic;
-    letter-spacing: 0.2rem;
+ .name {
+     color: white;
+     font-size: 2rem;
+     font-family: classic;
+     letter-spacing: 0.25rem;
+     display: flex;
+     flex-direction: column;
+justify-content: center;
+     align-items: center;
 
-}
+
+ }
+
+ #mainpic {
+     position: absolute;
+     right: 10.5rem;
+     transform: scale(1.9);
+     z-index: 5;
+     top: 23rem
+ }
+
+ .about {
+
+     color: #E5E5CB;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: classic;
+     font-size: 4.5rem;
+     font-weight: 600;
+     letter-spacing: 0.25rem;
+
+
+ }
+
+ .aboutContent {
+     color: rgb(255, 255, 255);
+     font-size: 2.5rem;
+     font-family: font;
+     width: 50%;
+     position: absolute;
+     right: 30rem;
+     letter-spacing: 0.15rem;
+
+
+ }
+
+ #imagetwo {
+     position: relative;
+     left: 2rem;
+     transform: scale(0.9);
+ }
+
+ .skills {
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: classic;
+     font-size: 2.5rem;
+     font-weight: 600;
+     letter-spacing: 0.25rem;
+
+ }
+
+ .logo {
+     position: relative;
+     top: 20rem;
+     left: 1rem;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+     transform: scale(0.6);
+
+ }
+
+ .projects {
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: classic;
+     font-size: 2.5rem;
+     font-weight: 600;
+     letter-spacing: 0.25rem;
+ }
+
+ .padding {
+     padding: 0rem 4rem;
+ }
+
+ .center {
+     text-align: center;
+     color: #E5E5CB;
+
+     font-family: classic;
+     /* font-size: 2.2rem; */
+
+     letter-spacing: 0.25rem;
+ }
+
+ .aboutproject {
+     color: rgb(255, 255, 255);
+     font-size: 1.8rem;
+     font-family: font;
+     padding: 4rem 4rem;
+     letter-spacing: 0.09rem;
+
+
+ }
+
+ .acheive {
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: classic;
+     font-size: 2.5rem;
+     font-weight: 600;
+     letter-spacing: 0.25rem;
+
+
+ }
+
+ .aboutacheive {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* border: 2px solid white; */
+     width: 60%;
+     height: 10%;
+     font-size: 1.8rem;
+     font-family: font;
+     position: relative;
+     top: 30rem;
+     left: -2rem;
+     letter-spacing: 0.05rem;
+ }
+
+ #two {
+     position: relative;
+     left: -3rem;
+ }
+
+ .hover :hover {
+     color: #8e8e8c;
+     transition-duration: 0.3s;
+
+
+ }
+
+ .arrow :hover {
+     color: #560303;
+     transform: scale(1.1);
+     transition-duration: 0.3s;
+     text-decoration: none;
+
+ }
+
+ .side {
+     position: relative;
+     top: 0.2rem;
+     left: 0.4rem;
+
+ }
+
+ .down {
+     /* border: 2px solid white; */
+
+ }
+
+ .downtwo {
+     /* border: 2px solid white; */
+
+
+ }
+
+ /* responsive code */
+ @media(max-width:500px) {
+     html {
+         font-size: 25%;
+     }
+
+     #last {
+         height: 60rem;
+         width: 78rem;
+         position: absolute;
+         left: 30rem;
+
+
+
+     }
+
+     .down {
+         margin-top: 90rem;
+
+     }
+
+     .downtwo {
+         display: flex;
+         justify-content: flex-start;
+         position: relative;
+         left: -120rem;
+         transform: translateY(20rem);
+     }
+
+     #two {
+         position: relative;
+         left: -120rem;
+         bottom: 100rem;
+     }
+
+     .logo {
+         display: grid;
+         grid-template-columns: auto auto auto;
+         position: relative;
+         top: -10rem;
+     }
+
+ }

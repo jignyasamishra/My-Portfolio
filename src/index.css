@@ -17,3 +17,11 @@ code {
   font-family: 'classic';
   src: local('classic'), url(./Fonts/ClassicFont.otf) format('truetype');
 }
+@font-face {
+  font-family: 'mainfont';
+  src: local('mainfont'), url(./Fonts/Mainfont.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'font';
+  src: local('font'), url(./Fonts/brussel.otf) format('truetype');
+}
