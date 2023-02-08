@@ -136,7 +136,7 @@ function App() {
             </div>
             <div style={{ height: "50rem", width: "100%" }}>
               <h1 className='center'>
-              <a style={{textDecoration:"none",color:"white"}} className='arrow' href="https://github.com/jignyasamishra/blog-website" target="_blank">
+              <a style={{textDecoration:"none",color:"white"}} className='arrow' href="https://github.com/jignyasamishra/Arte" target="_blank">
               <span className='arrow'>ARTE</span>
               
               < SlArrowRight className='side'/></a>
@@ -148,7 +148,7 @@ function App() {
             </div>
             <div style={{ height: "50rem", width: "100%" }}>
               <h1 className='center'> 
-              <a style={{textDecoration:"none",color:"white"}} className='arrow' href="https://github.com/jignyasamishra/blog-website" target="_blank">
+              <a style={{textDecoration:"none",color:"white"}} className='arrow' href="https://github.com/jignyasamishra/Multilingual-Translation" target="_blank">
               <span className='arrow'>MULTILINGUAL TRANSLATING WEBSITE</span>
               
               < SlArrowRight  className='side' /></a>
